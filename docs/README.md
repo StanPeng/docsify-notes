@@ -14,4 +14,5 @@
 * [NODE.JS](https://time0verflow.github.io/docsify-notes/#/study/NODE.JS/README.md)
 * [源码阅读](https://time0verflow.github.io/docsify-notes/#/study/源码阅读/README.md)
 * [计算机网络](https://time0verflow.github.io/docsify-notes/#/study/计算机网络/README)
-+ [CICD](https://time0verflow.github.io/docsify-notes/#/study/CICD/README.md)
+* [CICD](https://time0verflow.github.io/docsify-notes/#/study/CICD/README.md)
+* [课程书籍笔记](https://time0verflow.github.io/docsify-notes/#/study/课程书籍笔记/README.md)

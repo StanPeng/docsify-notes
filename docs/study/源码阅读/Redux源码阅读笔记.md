@@ -20,7 +20,7 @@
 
 + `bindActionCreators`,作用是将单个或多个ActionCreator转化为dispatch(action)的函数集合形式。
 
-开发者不用再手动dispatch(actionCreator(type))，而是可以直接调用方法
+开发者不用再手动`dispatch(actionCreator(type))`，而是可以直接调用方法
 
 + `applyMiddleware`,      添加中间件,实现对于`redux`的扩展
 
@@ -184,5 +184,15 @@ export default function createStore(reducer, preloadedState, enhancer) {...}
       )}'`
     )
   }
+```
+
+定义的一些变量
+
+```js
+let currentReducer = reducer  //临时reducer
+let currentState = preloadedState  //临时initState
+let currentListeners = []  //监听队列
+let nextListeners = currentListeners //监听队列的浅拷贝
+let isDispatching = false  //是否正在执行dispatch
 ```
 
